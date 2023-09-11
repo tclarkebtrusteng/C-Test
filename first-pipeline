@@ -1,3 +1,15 @@
-Console.WriteLine("The world shall know pein!");
-Console.WriteLine("");
-Console.Beep();
+using System;
+
+namespace RandomGen
+{
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("What akatsuki member are you? ");
+            string name = Console.ReadLine();
+            Console.WriteLine($"Welcome {name}");
+
+        }
+    }
+}
